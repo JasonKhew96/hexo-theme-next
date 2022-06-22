@@ -7,6 +7,7 @@
   <title>{% block title %}{% endblock %}</title>
   {{ partial('_third-party/analytics/index.swig', {}, {cache: theme.cache.enable}) }}
   {{ partial('_scripts/noscript.swig', {}, {cache: theme.cache.enable}) }}
+  {{ partial('_partials/google-analytics.swig') }}
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
